@@ -2,6 +2,13 @@
 
 Project link [https://movie-library-proj.herokuapp.com/](https://movie-library-proj.herokuapp.com/)
 
+### To run the project 
+#### To run frontend
+cd frontend and run "npm start" command
+
+### To run backend api
+cd api and run "npm start" command
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
