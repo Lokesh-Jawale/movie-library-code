@@ -1,0 +1,21 @@
+.playlist {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: auto;
+}
+
+.playlist h4 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.playlist__content {
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 20px;
+}
+

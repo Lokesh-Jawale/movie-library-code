@@ -1,0 +1,111 @@
+.home{
+    max-width: 100vw;
+    background-color: rgba(0, 0, 0, 0.98);
+}
+
+.home__register {
+    padding: 0 50px;
+    height: 90px;
+    color: white;
+    display: flex;
+    font-size: large;
+    justify-content: end;
+    align-items: center;
+}
+
+.home__register span {
+    margin: 0 10px;
+}
+
+.register__button {
+    cursor: pointer;
+}
+
+.register__button:hover {
+    color: rgb(61, 178, 255);
+}
+
+.home__main__content {
+    padding: 0 10%;
+    height: calc(100% - 90px);
+    /* background-color: rgba(0, 255, 255, 0.233); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.home__main__content h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.home__main__content p {
+    text-align:center;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.home__movie__search {
+    height: 40px;
+    background-color: rgba(255, 255, 255);
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+.search__icon {
+    color: rgba(0, 0, 0, 0.425);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.search__icon:hover {
+    color: rgba(0, 110, 255, 1);
+}
+
+.search__input {
+    border: none;
+    height: 30px;
+    color:rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+}
+
+.search__input:focus{
+    outline: none;
+}
+
+/* ************ */
+
+/* playlist list */
+
+.user__playlist {
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+/* END */
+
+/* search__results */
+.search__results {
+    background-color: rgba(0, 0, 0, 0.98);
+    padding: 40px 5%;
+}
+
+.search__results h2 {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.search__results__container {
+    width: fit-content;
+    margin-top: 20px;
+    display:flex;
+    flex-wrap: wrap;
+}
+

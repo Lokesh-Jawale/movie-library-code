@@ -1,0 +1,104 @@
+.card {
+    height: 170px !important;
+    width: 250px;
+    color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+.add__icon {
+    color: white;
+    height: 30px !important;
+    width: 30px !important;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0 10px;
+    align-self: flex-end;
+}
+
+.add__icon:hover {
+    background-color: rgba(0, 0, 0, 1);
+    cursor:pointer;
+}
+
+
+/* modal content */
+.modal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal__content {
+    padding: 40px;
+    background-color: rgb(48, 42, 42);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist__list {
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(94, 92, 92);
+    max-height: 250px !important;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.modal__content h4 {
+    color: rgba(255, 255, 255, 0.7);
+    align-self: flex-start;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.add__button {
+    height: inherit;
+    border-radius: 0 5px 5px 0;
+    background: rgb(0, 132, 255) 0% 0% no-repeat padding-box;
+    padding: 5px 10px;
+    width: fit-content;
+    font-size: 14px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid rgb(94, 92, 92);
+}
+
+.playlist input {
+    border-radius: 5px 0 0 5px;
+}
+
+.private__checkbox {
+    height: inherit;
+    margin: 0 10px;
+}
+
+.close__button {
+    margin-top: 20px;
+    background: #f71111 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    height: 32px;
+    padding: 5px 10px;
+    width: fit-content;
+    font-size: 14px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
